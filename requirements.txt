@@ -1,0 +1,10 @@
+Pillow
+folium
+earthengine-api
+opencv-python
+matplotlib
+tensorflow
+Pillow
+numpy
+setuptools
+wheel

@@ -1,5 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+import ee
+import folium
+from IPython.display import HTML
+
 def mapdisplay(center, dicc, Tiles="OpensTreetMap",zoom_start=10):
     ''' Display a ee.Image and ee.FeatureCollection using folium
     
@@ -29,3 +34,12 @@ def mapdisplay(center, dicc, Tiles="OpensTreetMap",zoom_start=10):
           ).add_to(mapViz)
     mapViz.add_child(folium.LayerControl())
     return mapViz
+
+def embed_map(m):    
+    m.save('index.html')
+    with open('index.html') as f:
+        html = f.read()
+    iframe = '<iframe srcdoc="{srcdoc}" style="width: 100%; height: 750px; border: none"></iframe>'
+    srcdoc = html.replace('"', '&quot;')
+    return HTML(iframe.format(srcdoc=srcdoc))
+
