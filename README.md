@@ -7,9 +7,9 @@ Getting training data from Planet imagery products to make a Superpixel-based co
 
 
 ### Image Acquisition
-+ Sentinel-1
++ Sentinel-1 imagery
 
-+ Sentinel-2
++ Sentinel-2 imagery
 
 + Satellite Imagery and Archive | Planet. 
 In this research Planet products (SkySat or RapidEye) will be usesd as a Reference map for assessing deep network output.
