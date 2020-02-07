@@ -12,8 +12,8 @@ Getting training data from Planet imagery products to make a Superpixel-based co
 
 2) Sentinel-2
 
-3) Satellite Imagery and Archive | Planet
-Planet products will be usesd as a Reference map for assessing deep network output.
+3) Satellite Imagery and Archive | Planet. 
+In this research Planet products will be usesd as a Reference map for assessing deep network output.
 
 
 ### Sentinel-2 derived Indices and S1 SAR imagery
