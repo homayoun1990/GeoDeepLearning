@@ -1,5 +1,6 @@
 Pillow
 folium
+ipyleaflet
 earthengine-api
 opencv-python
 matplotlib
